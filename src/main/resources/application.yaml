@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: completable-future
+  threads:
+    virtual:
+      enabled: true

@@ -1,0 +1,7 @@
+### Test Case 1: Standard Success
+### Expected: ~1300ms (Max of [800, 1000] + 300) and VirtualThread
+GET http://localhost:8080/api/travel/quote/Sydney
+
+### Test Case 2: Error Handling (Weather fails)
+### Expected: Success with "weather": "Weather Unavailable" (No 500 error)
+GET http://localhost:8080/api/travel/quote/error

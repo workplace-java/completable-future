@@ -1,0 +1,3 @@
+### Test JDK 25 CompletableFuture Performance
+### Expectation: totalTime < 1100ms and results contain "VirtualThread"
+curl -v http://localhost:8080/run-parallel
